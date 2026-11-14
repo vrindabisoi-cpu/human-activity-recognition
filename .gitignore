@@ -1,0 +1,10 @@
+# Raw dataset (download instructions in README); the app uses app_data/ instead
+data/
+*.zip
+
+# Python / OS clutter
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+venv/

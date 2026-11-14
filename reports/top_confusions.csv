@@ -1,0 +1,16 @@
+model,true,predicted,count,pct_of_true_class
+logistic_regression,SITTING,STANDING,58,11.8
+logistic_regression,WALKING_UPSTAIRS,WALKING,24,5.1
+logistic_regression,WALKING_DOWNSTAIRS,WALKING_UPSTAIRS,19,4.5
+logistic_regression,STANDING,SITTING,19,3.6
+logistic_regression,LAYING,STANDING,14,2.6
+decision_tree,SITTING,STANDING,147,29.9
+decision_tree,WALKING_UPSTAIRS,WALKING_DOWNSTAIRS,85,18.0
+decision_tree,WALKING_DOWNSTAIRS,WALKING_UPSTAIRS,45,10.7
+decision_tree,WALKING_UPSTAIRS,WALKING,43,9.1
+decision_tree,STANDING,SITTING,43,8.1
+random_forest,SITTING,STANDING,57,11.6
+random_forest,WALKING_UPSTAIRS,WALKING,55,11.7
+random_forest,WALKING_DOWNSTAIRS,WALKING_UPSTAIRS,40,9.5
+random_forest,STANDING,SITTING,39,7.3
+random_forest,WALKING_DOWNSTAIRS,WALKING,20,4.8

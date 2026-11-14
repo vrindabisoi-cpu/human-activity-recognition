@@ -1,0 +1,11 @@
+test_row,true_label,predicted,confidence,app_shows_correct,app_shows_incorrect,app_shows_uncertain_warning
+1089,Sitting,Standing,100%,False,True,False
+1122,Laying,Standing,91%,False,True,False
+2232,Standing,Sitting,78%,False,True,True
+2524,Walking downstairs,Walking upstairs,52%,False,True,True
+803,Sitting,Sitting,60%,True,False,True
+53,Sitting,Sitting,90%,True,False,False
+294,Walking upstairs,Walking upstairs,98%,True,False,False
+722,Walking downstairs,Walking downstairs,100%,True,False,False
+254,Walking,Walking,100%,True,False,False
+2767,Standing,Standing,100%,True,False,False

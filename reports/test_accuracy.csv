@@ -1,0 +1,4 @@
+model,test_accuracy
+logistic_regression,0.9498
+decision_tree,0.8548
+random_forest,0.9165

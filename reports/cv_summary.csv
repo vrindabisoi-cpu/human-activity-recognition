@@ -1,0 +1,4 @@
+model,best_params,mean_cv_accuracy,std_cv_accuracy
+logistic_regression,"{""clf__C"": 0.1}",0.9348,0.0397
+random_forest,"{""n_estimators"": 25}",0.9191,0.0394
+decision_tree,"{""max_depth"": 6}",0.8661,0.0292

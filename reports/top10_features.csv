@@ -1,0 +1,11 @@
+feature,importance,strongest_for_activity,direction
+tBodyGyroJerk-entropy()-X,0.41805074455520175,SITTING,higher -> less likely
+tGravityAcc-mean()-Y,0.2969006029916035,STANDING,higher -> less likely
+tGravityAcc-max()-Y,0.2948594629445724,STANDING,higher -> less likely
+tGravityAcc-min()-Y,0.28484990657476067,STANDING,higher -> less likely
+"angle(Y,gravityMean)",0.25465523632717224,STANDING,higher -> more likely
+fBodyGyro-entropy()-X,0.2530589946224591,SITTING,higher -> less likely
+"tBodyAcc-correlation()-X,Y",0.23419588235636457,WALKING,higher -> more likely
+tGravityAcc-energy()-Y,0.23374266322508663,LAYING,higher -> more likely
+"angle(X,gravityMean)",0.2318889035179357,LAYING,higher -> more likely
+tGravityAcc-max()-X,0.2265797310357993,LAYING,higher -> less likely

@@ -1,0 +1,16 @@
+{
+  "best_model": "logistic_regression",
+  "best_params": {
+    "clf__C": 0.1
+  },
+  "mean_cv_accuracy": 0.9348,
+  "cv": "GroupKFold(n_splits=5) grouped by subject",
+  "sklearn_version": "1.9.1",
+  "uncertainty": {
+    "threshold": 0.8,
+    "share_flagged": 0.083,
+    "accuracy_flagged": 0.613,
+    "accuracy_not_flagged": 0.964,
+    "share_of_errors_flagged": 0.491
+  }
+}
