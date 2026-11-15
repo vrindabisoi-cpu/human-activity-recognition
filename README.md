@@ -98,7 +98,7 @@ The most common mistakes (`reports/top_confusions.csv`) are the same for every m
 2. **Walking upstairs ↔ walking ↔ walking downstairs**: 5–18% depending on model.
 3. **Laying** is almost never confused (100% recall for both tree models).
 
-**Hypothesis:** sitting and standing are both *still, upright* postures with the phone at the waist. With no movement to tell them apart, the only clue is a slight difference in hip tilt, which changes how gravity falls on the phone's axes. The data support this: the mean Y-axis gravity feature averages +0.12 when sitting vs −0.18 when standing (scaled units), a small gap compared with how differently people sit (upright, slouched, leaning back). The three walking activities share the same rhythmic gait pattern and differ mainly in subtle vertical-acceleration and axis-correlation patterns. Laying is easy because lying down rotates the phone about 90°, flipping the direction of gravity entirely.
+**Hypothesis:** sitting and standing are both still, upright postures with the phone at the waist. Since there is no movement to tell them apart, the only clue is a slight difference in hip tilt, which changes how gravity falls on the phone's axes. The data support this since the mean Y-axis gravity feature averages +0.12 when sitting vs −0.18 when standing, a small gap compared with how differently people sit (upright, slouched, leaning back). The three walking activities share the same pattern and differ mainly in subtle vertical-acceleration and axis-correlation patterns. Laying is easy because lying down rotates the phone about 90°, flipping the direction of gravity entirely.
 
 ## Top 10 features of the best model (logistic regression)
 
